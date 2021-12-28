@@ -1,0 +1,8 @@
+syms d vmax tv a ta dd da dv D 
+
+dd = D-da-dv;
+b = -2/d*vmax;
+c
+delta = (2/d*vmax)^2+4*2/d*(vmax*tv+a/2*ta^2-dd); 
+td  =  (
+simplify(delta)
